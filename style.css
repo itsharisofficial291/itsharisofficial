@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+
+/* contact */
+#contact{
+  margin-top: 50px;
+}
+#contact .card{
+  height: 80px;
+  margin-top: 20px;
+  box-shadow: rgba(3, 3, 255, 0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgb(48, 122, 219);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+#contact .card h6{
+  margin-left: 10px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #000000;
+}
+.messagebtn button{
+  margin-top: 30px;
+  width: 200px;
+  height: 33px;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.904);
+  font-weight: bold;
+  letter-spacing: 3px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.messagebtn button:hover{
+  background-color: rgb(46, 136, 255);
+  color: white;
+}
+/* contact */
+
+/*form*/
+.btn-secondary{
+  background-color: black;
+}
+.btn{
+  align-items: center;
+}
+.course-details{
+display: flex;
+
+}
+a{
+color: rgb(54, 134, 238);
+}
+p{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c-img{
+  height: 500px;
+  width: 100%;
+}
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+  .carousel-item {
+    padding: 0 20px;
+    
+  }
+
+  .card {
+    margin-bottom: 20px;
+    height: 500px;
+  }
+  
+}
+.diffSection {
+	width: 100%;
+	/*position: relative;*/
+	justify-content: center;
+	align-items: center;
+}
+.diffSection .content {
+	margin: 10px;
+	text-align: center;
+	padding: 10px 100px;
+	font-size: 1.1em;
+}
+
+/*PORTFOLIO*/
+.extra {
+	width: 100%;
+}
+.extra p {
+	padding: 30px;
+	padding-bottom: 150px;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: cursive;
+	z-index: -9;
+}
+.smbox {
+	display: flex;
+	flex-wrap: wrap;
+	transform: translateY(-100px);
+	justify-content: center;
+}
+.smbox span {
+	margin: 1%;
+	background: #fff;
+	box-shadow: inset 0px 0px 25px rgba(0,0,0,0.2),
+						0 0 40px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	padding: 30px 50px;
+	cursor: pointer;
+}
+.smbox span:hover {
+	transform: scale(1.3);
+	transition: .5s ease;
+}
+.smbox .data {
+	font-size: 80px;
+	color: #0f20b3;	
+}
+.smbox .det {
+	font-size: 20px;
+	color: #272529;
+	font-family: cursive;
+}
+.box{
+  border: #000 2px solid;
+}
+
+
+
+/*Course Details*/
+.btn-secondary, .btn-primary{
+  background-color: black;
+}
+.btn{
+  align-items: center;
+}
+.course-details{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+ /*Course Details*/
+
+/* styles.css */
+
+  /*jumbotron*/
+  .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+  }
+  .jumbotron {
+    background: linear-gradient(rgba(94, 186, 240, 0.9), rgba(40, 120, 235, 0.9)), url(/https://media.istockphoto.com/id/1170717275/photo/lets-learn-something-new-today.jpg?s=1024x1024&w=is&k=20&c=Hu0sBNUBtADc_tkUAFJ5O5-1Fe8zjo3HUK-0beeJZe4=), no-repeat center center;
+    background-size: cover;
+  }
+  
+  .jumbotron.page-header {
+    background: linear-gradient(rgba(38, 98, 228, 0.9), rgba(73, 189, 243, 0.596)), url(/https://media.istockphoto.com/id/1170717275/photo/lets-learn-something-new-today.jpg?s=1024x1024&w=is&k=20&c=Hu0sBNUBtADc_tkUAFJ5O5-1Fe8zjo3HUK-0beeJZe4=), no-repeat center center;
+    background-size: cover;
+  }
+  
+  @media (min-width: 576px) {
+    .jumbotron {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  .jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+  }
+  
+  /*jumbotron*/
+/*Team*/
+.container-teachers{
+  margin-left: 100px;
+}
+/* Three columns side by side */
+.column-teach {
+  float: left;
+  width: 30.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  border-radius: 100px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column-teach {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a iteam effect */
+.iteam-teach {
+  
+ 
+  border-style: solid;
+  border-color: #000000;
+  height: 100%;
+}
+
+.iteam-teach:hover {
+  
+ 
+  border-style: solid;
+  border-color: #3134eb;
+  
+  height: 100%;
+
+}
+.container-xxl{
+ 
+  background-color: #f2f6f8;
+  
+
+}
+
+/* Some left and right padding inside the container */
+.container-teachers {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #29bbff;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+/*Team*/
+/*Crousel*/
+
+
+
+
+
+/*success story*/
+
+/* styles.css */
+.course-item {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 20px;  
+  box-shadow: 0 2px 5px rgba(7, 20, 202, 0.1);
+  margin-bottom: 0;
+  transition: all 0.5s ease;
+  justify-content: space-around;
+}
+
+.course-item:hover {
+  transform: scale(1.1);
+  border-color: #000000;
+  color: rgb(14, 30, 170);
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.course-item img {
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+  
+}
+
+.course-item:hover img {
+  border-color: #339cfd;
+}
+
+.course-item h3 {
+  margin-top: 0;
+}
+
+.course-item .duration {
+  font-size: 14px;
+  color: #777;
+}
+
+.course-item .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.course-item .stars {
+  color: #ffd700;
+}
+
+.course-item .description {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+  .course-item {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+
+  .course-item img {
+    height: 300px;
+  }
+
+ 
+}
+
+
+
+.course .box {
+  padding: 10px 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+
+.course .box img {
+  border-radius: 5px;
+}
+
+.course .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffcf88;
+}
+
+
+/* Global Styles */
+.data {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.det {
+  font-size: 14px;
+  color: #666;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*Atudents Acheivement*/
+.card{
+  width: 100%;
+  height: 300px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  border: none;
+  background-color: inherit;
+  border-radius: 20px;
+}
+
+.card .box {
+  position: absolute;
+  color: #262626;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+.card .box.front{
+  background-image: url(img/pattern.png);
+  background-repeat: repeat;
+}
+.card .box.front,
+.card .box.back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f6f8;
+}
+
+.card .box.front img {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+border: 5px solid #262626;
+margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.card:hover .box.front {
+  transform: rotateY(180deg);
+}
+.box.front h2 {
+font-family: 'Bebas Neue', cursive;
+}
+.box.front h4 {
+font-size: 18px;
+letter-spacing: 2px;
+}
+.socials i {
+margin: 0 15px;
+}
+.card .box.back {
+  position: absolute;
+  background: #fff;
+  transform: rotateY(180deg);
+  padding: 20px 30px;
+  text-align: center;
+  user-select: none;
+}
+
+.card .box.back .fa-quote-left {
+position: absolute;
+top: 25px;
+left: 180px;
+font-size: 3.2rem;
+}
+
+.card:hover .box.back {
+  transform: rotateY(360deg);
+}
+
+@media(max-width: 991.5px) {
+  .col-lg-4 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+  }
+}
+/* Mobile devices */
+@media screen and (max-width: 767px) {
+  
+
+  .card {
+    margin-bottom: 20px;
+    height: 500px;
+  }
+  
+}
+
+
+h1,
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h3,
+h4,
+h5{
+  margin-top: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+  
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+nav{
+  text-transform: uppercase;
+  
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f6f8;
+  
+  position: sticky;
+  
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #000000;
+  ;
+}
+.navbar-brand img {
+  width: 200px;
+  height:70px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+.nav-pills .nav-link.active:active{
+  color: #ffffff;
+  background-color: rgb(92, 162, 219);
+    
+}
+
+
+.nav-pills .nav-link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000103;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  
+}
+
+
+
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+li a{
+  font-weight: bold;
+}
+li a:hover {
+  
+  color: #000000;
+  background-color: #27a0f1 ;
+  text-decoration: none;
+  list-style: none;
+
+  
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #000000;
+}
+
+
+/* Sections */
+
+section {
+  padding: 20px 0;
+}
+
+h2 {
+  color: #333;
+  
+  margin-bottom: 20px;
+}
+
+
+
+/* Location */
+
+address {
+  margin-bottom: 20px;
+}
+
+/* Contact */
+
+  
+footer{
+  background-color: #fff;
+  color: #246db1;
+ 
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td tr {
+  padding: 10px;
+  background-color: rgb(147, 215, 255);
+  text-align: left;
+  border-bottom: 1px solid;
+}
+
+/* Add your custom CSS styles here */
+.header1 {
+  height: 50px;
+  background-color: rgb(42, 152, 255);
+  text-decoration: none;
+}
+
+.butn.theme:hover span,
+.butn.theme:active span {
+  color: #59c17a;
+}
+
+.enroll {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 0;
+  background-color: rgb(55, 215, 255);
+  box-shadow: #0687ff0d 0 0 8px;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.enroll:hover {
+  letter-spacing: 3px;
+  background-color: hsl(300, 50%, 1%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(32, 165, 241) 0px 7px 29px 0px;
+}
+
+.enroll:active {
+  letter-spacing: 3px;
+  background-color: hsl(194, 100%, 65%);
+  color: hsl(0, 0%, 100%);
+  
+  transform: translateY(0.10);
+  transition: 10ms;
+}
+
+.btn {
+  color: white;
+  border-radius: 50px;
+  border: 0;
+  background-color: #2914e70d 0;
+
+
+  font-size: 14px;
+  
+}
+
+.btn:hover {
+  
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+/*Register*/
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 350px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  color: rgb(89, 167, 255);
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.title::before,
+.title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: rgb(0, 0, 0);
+}
+
+.title::before {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(96, 236, 255);
+}
+
+.title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.message,
+.signin {
+  color: rgba(88, 87, 87, 0.822);
+  font-size: 14px;
+}
+
+.signin {
+  text-align: center;
+}
+
+.signin a {
+  color: rgb(118, 182, 255);
+}
+
+.signin a:hover {
+  text-decoration: none rgb(92, 170, 235);
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid rgba(97, 171, 255, 0.397);
+  border-radius: 10px;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: grey;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.form label .input:valid + span {
+  color: green;
+}
+
+.submit {
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(56, 90, 194);
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+/*Register*/

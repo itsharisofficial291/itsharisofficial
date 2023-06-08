@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Excellent Coaching | Best Coaching Center in Karachi</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/fav.PNG" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+
+  <!-- Bootstrap Bundle (JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</head>
+
+  <body>
+ 
+<!--Navbar Start-->  
+<nav class="navbar navbar-expand-lg navbar-light  py-3 py-lg-0 px-lg-5">
+  <a class="navbar-brand" href="">
+    <img src="images/logo.png" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="courses.html">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="teachers.html">Teachers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="stories.html">Students Achievement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="contact.html">Contact</a>
+      </li>
+    </ul>
+
+    
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item dropdown">
+        <a href="register.html"><i class="fa-solid fa-user"></i></a>
+          
+        </a>
+        
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+<!--Navbar End-->  
+<!--Header-->
+    <div class="jumbotron jumbotron-fluid page-header position-relative">
+      <div class="container text-center py-5">
+        <h1 class="text-black display-1">Our Courses</h1>
+        <div class="d-inline-flex text-black mb-5">
+          <p class="m-0 text-uppercase">
+            <a class="text-black" href="index.html">Home</a>
+          </p>
+          <i class="fa fa-angle-double-right pt-1 px-3"></i>
+          <p class="m-0 text-uppercase">
+            <a class="text-black" href="courses.html">Courses</a>
+          </p>
+        </div>
+      </div>
+    </div>
+<!--Header-->
+    <!--Course Details-->
+    <center>
+    <ul class="nav nav-pills mb-1 justify-content-center" style="margin-bottom: 20px;" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="pills-compulsory-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-compulsory"
+          type="button"
+          role="tab"
+          aria-controls="pills-compulsory"
+          aria-selected="true"
+        >
+          Compulsory Subjects
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-medical-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-medical"
+          type="button"
+          role="tab"
+          aria-controls="pills-medical"
+          aria-selected="false"
+        >
+          Pre-Medical
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-engineering-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-engineering"
+          type="button"
+          role="tab"
+          aria-controls="pills-engineering"
+          aria-selected="false"
+        >
+          Pre-Engineering
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="pills-commerce-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#pills-commerce"
+          type="button"
+          role="tab"
+          aria-controls="pills-commerce"
+          aria-selected="false"
+        >
+          Commerce
+        </button>
+      </li>
+    </ul>
+  </center>
+    <!-- Compulsory Subjects -->
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-compulsory" role="tabpanel" aria-labelledby="pills-compulsory-tab">
+    <div class="container">
+      <div class="column">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h1 class="mb-5">Compulsory Subjects</h1>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light" style="margin-bottom: 20px;">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="images/urdu.png" alt="" width="600px" />
+                <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"></div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">Urdu</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(4.5)</small>
+                </div>
+                <h5 class="mb-4">Fee: 1500</h5>
+                <a href="course/urdu.html" class="flex-shrink-0 btn btn-sm btn-dark px-3 border-end" style="border-radius: 30px; margin-bottom: 50px">Join Now</a>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Abdul Malik</small>
+                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>6.49 Hrs</small>
+                <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>15 Students</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light" style="margin-bottom: 20px;">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="images/english.jpg" alt="" width="600px" />
+                <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"></div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">English</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(4.7)</small>
+                </div>
+                <h5 class="mb-4">Fee: 1000</h5>
+                <a href="course/english.html" class="flex-shrink-0 btn btn-sm btn-dark px-3 border-end" style="border-radius: 30px; margin-bottom: 50px">Join Now</a>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Abdul Malik</small>
+                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>10.49 Hrs</small>
+                <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>10 Students</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light" style="margin-bottom: 20px;">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="images/islamiat.jpg" alt="" width="500px" />
+                <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"></div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">Islamiat</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(4.8)</small>
+                </div>
+                <h5 class="mb-4">Fee: 800</h5>
+                <a href="course/islamiat.html" class="flex-shrink-0 btn btn-sm btn-dark px-3 border-end" style="border-radius: 30px; margin-bottom: 50px">Join Now</a>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>Abdul Malik</small>
+                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>8.49 Hrs</small>
+                <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>10 Students</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Compulsory Courses -->
+
+      <!---Pre-Medical Courses-->
+      <div class="tab-pane fade" id="pills-medical" role="tabpanel" aria-labelledby="pills-medical-tab">
+
+        <div class="container">
+          <div class="column">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="mb-5">Pre-Medical Courses</h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/physics.png"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Physics</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(123)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/physics.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/ch.jpg"
+                    alt=""
+                    
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Chemistry</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(123)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/chemistry.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/Biology.jpg"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Biology</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(4.9)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href=""
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/botany.jpg"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Botany</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(4.8)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/botany.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/zoology.jpg"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Zoology</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(4.5)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/zoology.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+      <!---Pre-Engineering Courses-->
+      <div class="tab-pane fade" id="pills-engineering" role="tabpanel" aria-labelledby="pills-engineering-tab">
+
+        
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="mb-5">Pre-Engineering Courses</h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/mathematics.jpg"
+                    alt=""
+                    width="600px"
+                    height="100%"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Mathematics</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(123)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/mathematics.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/chemistry.jpg"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Chemistry</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(5</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/chemistry.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/physics.png"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Physics</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(4.6)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/physics.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+        </div>
+        ..
+      </div>
+
+<!---Commerce Courses-->
+<div class="tab-pane fade" id="pills-commerce" role="tabpanel" aria-labelledby="pills-commerce-tab">
+
+        
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h1 class="mb-5">Commerce Courses</h1>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/Principles-of-Accounting.jpg"
+                    alt=""
+                    width="600px"
+                   
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Principles of Accounting</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(4.4)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/poa.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/principles of economics.jpg"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Principles of Economics</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(4.6)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/poe.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+              <div class="course-item bg-light" style="margin-bottom: 20px;">
+                <div class="position-relative overflow-hidden">
+                  <img
+                    class="img-fluid"
+                    src="images/principle-of-commerce.jpg"
+                    alt=""
+                    width="600px"
+                  />
+                  <div
+                    class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                  ></div>
+                </div>
+                <div class="text-center p-4 pb-0">
+                  <h3 class="mb-0">Principles of Commerce</h3>
+                  <div class="mb-3">
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small class="fa fa-star text-primary"></small>
+                    <small>(5)</small>
+                  </div>
+                  <h5 class="mb-4">Fee: 1000</h5>
+                  <a
+                    href="course/poc.html"
+                    class="flex-shrink-0 btn btn-sm btn btn-dark px-3 border-end"
+                    style="border-radius: 30px; margin-bottom: 50px"
+                    >Join Now</a
+                  >
+                </div>
+                <div class="d-flex border-top">
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-user-tie text-primary me-2"></i>John
+                    Doe</small
+                  >
+                  <small class="flex-fill text-center border-end py-2"
+                    ><i class="fa fa-clock text-primary me-2"></i>1.49
+                    Hrs</small
+                  >
+                  <small class="flex-fill text-center py-2"
+                    ><i class="fa fa-user text-primary me-2"></i>30
+                    Students</small
+                  >
+                </div>
+              </div>
+            </div>
+            
+            
+        </div>
+        ..
+      </div>
+      
+    </div>
+  </div>
+
+    <!--Course Details-->
+
+    <!--footer--->
+    <!-- Section: Social media -->
+ <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  <!-- Left -->
+  <div class="me-5 d-none d-lg-block">
+    <span>Get connected with us on social networks:</span>
+  </div>
+  <!-- Left -->
+
+  <!-- Right -->
+  <div>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-google"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Right -->
+</section>
+<!-- Section: Social media -->
+<!-- Footer -->
+<footer class="text-center text-lg-start">
+
+  <!-- Section: Links -->
+  <section class="footer">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4" style="color: black;">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="images/logo.png" alt="" class="img-fluid">
+          </h6>
+          <p>
+            We believe that every student has the potential to achieve their goals, and we are here to help them
+            reach their full potential.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: black;">
+            Our Services
+          </h6>
+          <ul class="list-unstyled">
+            <li>
+              <a href="courses.html" class="text-reset">Compulsory</a>
+            </li>
+            <br>
+       
+            <li>
+              <a href="courses.html" class="text-reset">Pre-Engineering</a>
+            </li>
+            <br>
+          
+            <li>
+              <a href="courses.html" class="text-reset">Pre-Medical</a>
+            </li>
+            <br>
+      
+            <li>
+              <a href="courses.html" class="text-reset">Commerce</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: black;">
+            Useful links
+          </h6>
+          <ul class="list-unstyled">
+            <li>
+              <a href="contact.html" class="text-reset">Contact Us</a>
+            </li>
+            <br>
+            <li>
+              <a href="about.html" class="text-reset">About Us</a>
+            </li>
+            <br>
+            <li>
+              <a href="register.html" class="text-reset">Registration</a>
+            </li>
+            <br>
+            <li>
+              <a href="login.html" class="text-reset">Login</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4" style="color: black;">Contact</h6>
+          <ul class="list-unstyled fw-bold">
+            <li><i class="fas fa-home fw-bold me-3"></i>North Nazimabad,Karachi, PK</li>
+            <br>
+            <a href="mailto:info@excellentcoaching.com" style="color: #246db1;" class="fw-bold"><i class="fas fa-envelope me-3"></i>info@excellentcoaching.com</a>
+            <br>
+            <br>
+            <li><i class="fas fa-phone me-3"></i> +01 234 567 88</li><br>
+            <li><i class="fas fa-print me-3"></i> +01 234 567 89</li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links -->
+
+</footer>
+<!-- Footer -->
+
+
+
+  </body>
+
+</html>
